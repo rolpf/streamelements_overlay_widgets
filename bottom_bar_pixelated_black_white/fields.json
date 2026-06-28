@@ -1,0 +1,7 @@
+{
+  "fontSize": {
+    "type": "text",
+    "label": "font size",
+    "value": "text-xl"
+  }
+}

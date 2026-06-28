@@ -1,0 +1,107 @@
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Jersey+15&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- <div id="notification" class="invisible absolute inset-x-0 left-0 bottom-12 h-12  mx-auto bg-stone-950/60 p-2 border-t-2 border-slate-50/75 {{fontSize}} inline-block font-bold text-white">xxx vient de follow
+</div> -->
+<div
+    class="main-container absolute inset-y-0 right-0  w-124 justify-between h-auto  mx-auto p-2 bg-black border-t-2 border-slate-50/75">
+        <div class="flex">
+            <div class="h-84 w-4 red-bg border-2 border-solid border-white mr-2"></div>
+        <div class="h-84 w-124 border-2 border-solid border-white"></div>
+    </div>
+    <div class="flex">
+        <div id="xp-bar" class="h-4 w-96 border-2 border-solid border-white my-2">
+            <div id="filler-xp-bar" class="blue-bg h-2 mt-0.5" style="width: 50%"></div>
+        </div>
+        <div class="flex flex-row"> lvl <p id="level" class="pl-2"></p>
+        </div>
+    </div>
+    <div class="flex flex-row mb-4">exp. <p id="user-exp"></p>/<p id="wanted-exp"></p>
+    </div>
+    <div class="flex items-center px-2">
+        <img src="https://img.icons8.com/?size=100&id=zpyPKXWUk55w&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+        <div id="current-time" class="{{fontSize}} font-bold text-white justify-self-center"></div>
+    </div>
+    <div class="flex my-2 mt-8">
+        <img src="https://img.icons8.com/?size=100&id=5K8b6OPStFN8&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+        <div id="twitch-follower-latest" class="{{fontSize}} text-white justify-self-center"></div>
+        <div id="twitch-follower-count" class="{{fontSize}} green-text justify-self-center ml-4"></div>
+        <div class="{{fontSize}} text-white justify-self-center  ml-4""> followers</div>
+    </div>
+    <div class=" flex my-2 mb-8"> <img src="https://img.icons8.com/?size=100&id=121551&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+            <div id="twitch-subscriber-latest" class="{{fontSize}} font-bold text-white justify-self-center"></div>
+            <div id="twitch-subscriber-count" class="{{fontSize}} green-text justify-self-center ml-4"></div>
+            <div class="{{fontSize}} text-white justify-self-center ml-4"> subs</div>
+        </div>
+        <div class="flex my-2">
+            <div class="border-2 border-solid border-white flex-1 mr-2">
+                <div class="m-2">
+                    <div class="flex flex-row justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=RxraPSw7k89m&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="px-2">Sword</div>
+                    </div>
+                    <div class="px-2">lvl. </div>
+                    <div class="px-2">dmg</div>
+                </div>
+            </div>
+
+            <div class="border-2 border-solid border-white flex-1">
+                <div class="m-2">
+                    <div class="flex justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=TyCVEzwdH5jk&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="">Helmet</div>
+                    </div>
+                    <div class="px-2">lvl. </div>
+                    <div class="px-2">s/attack</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex my-2">
+            <div class="border-2 border-solid border-white flex-1 mr-2">
+                <div class="m-2">
+                    <div class="flex justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=79929&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="">Chestplate</div>
+                    </div>
+                    <div class="px-2">lvl. </div>
+                    <div class="px-2">% defense</div>
+                </div>
+            </div>
+            <div class="border-2 border-solid border-white flex-1">
+                <div class="m-2">
+                    <div class="flex justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=QPBTfco1Id51&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="">Cat</div>
+                    </div>
+                    <div class="px-2">dmg</div>
+                    <div class="px-2">10K</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex my-2">
+            <div class="border-2 border-solid border-white flex-1 mr-2">
+                <div class="m-2">
+                    <div class="flex justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=F7nsCJ6lMc78&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="">Leggings</div>
+                    </div>
+                    <div class="px-2">lvl. </div>
+                    <div class="px-2">dmg</div>
+                </div>
+            </div>
+            <div class="border-2 border-solid border-white flex-1">
+                <div class="m-2">
+                    <div class="flex justify-between px-2">
+                        <img src="https://img.icons8.com/?size=100&id=W7njX2BpoGnr&format=png&color=FFFFFF" class="w-6 h-6 mr-2">
+                        <div class="">Boots</div>
+                    </div>
+                    <div class="px-2">lvl. </div>
+                    <div class="px-2">dmg</div>
+                </div>
+            </div>
+        </div>
+        <div id="notification-div" class="">
+        </div>
+    </div>

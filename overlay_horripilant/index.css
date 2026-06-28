@@ -1,0 +1,21 @@
+* {
+  font-family: "DotGothic16", "sans-serif";
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.green-text {
+  color: #009a43;
+}
+
+.blue-bg {
+  background-color: #197ed0;
+}
+
+.red-bg {
+  background-color: #ff606a;
+}
+
+/* #009A43 vert
+ #197ED0 bleu
+ #FF606A rouge */
